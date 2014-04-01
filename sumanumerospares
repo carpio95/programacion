@@ -9,12 +9,13 @@ int main()
 	cout<<"ingrse el valr de N:";
 	cin>>N;
 	suma=0;
+	cout<<"la suma de los "<<N<<" primeros numeros es ";
 	for (i=1;i<=N;i++)
 	{
 		suma=suma+i*2;
 		cout<<i*2<<"+";
 	}
-	cout<<"la suma de los "<<N<<" primeros numeros es "<<suma;
+	cout<<" = "<<suma;
 	getch();
 	return 0;
 }
