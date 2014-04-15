@@ -1,0 +1,25 @@
+// suma impares.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main()
+{
+	int suma,cont,i,N;
+	cout<<"ingrese el valor de a: ";
+	cin>>N;
+	suma=0;
+	cont=1;
+	i=1;
+	while (i<=N)
+	{
+		suma=suma+cont;
+		cont=cont+2;
+		i=i+1;
+	}
+	cout<<"la suma de los "<<N<<" primeros numeros es"<<suma;
+getch();
+}
