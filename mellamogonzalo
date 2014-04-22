@@ -1,0 +1,22 @@
+// me llamo Extrude.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main ()
+{
+	char caracter='+';
+	int I;
+	for(I=0;I<=32;I++)
+		cout<<caracter;
+	cout<<"\n";
+	cout<<"*\t	me llamo Gonzalo		*;
+	cout<<"\n";
+	for(I=0;I<=32;I++)
+		cout<<caracter;
+	cout<<"\n";
+getch();
+}
