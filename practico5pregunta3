@@ -1,0 +1,26 @@
+// practico 5 pregunta 3.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main()
+{
+	int n,udm,c,d,u;
+	cout<<"ingrese el numero";
+	cin>>n;
+	if (n<10000)
+	{
+		udm=n/1000;
+		c=(n-udm*1000)/100;
+		d=(n-udm*1000-c*100)/10;
+		u=(n-udm*1000-c*100-d*10);
+		cout<<"udm: "<<udm<<"\n c: "<<c<<"\n d: "<<d<<"\n u: "<<u;
+	}
+	else
+		cout<<"el nuemro que ingreso es mayor a 10000";
+getch();
+}
